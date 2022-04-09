@@ -1,0 +1,130 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personle Portfolio Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="bootstrap.css">
+	
+	
+	
+</head>
+<body class="super">
+
+<script src="bootstrap.js"></script>
+
+<header class="header">
+
+ <nav class="navbar  nav navbar-light navbar-expand-lg"  >
+  <div class="container-fluid">
+    <a class="navbar-brand  " href="#"><img class="logo d-inline-block " src="logo-1.png"> <span>SAMI</span> </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+	     </button>
+    <div class="collapse navbar-collapse justify-content-between  " id="navbarSupportedContent">
+      <ul class="navbar-nav  ms-auto mb-2 mb-lg-0 ">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="home.html">HOME</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about_me.html">ABOUT ME</a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link" href="myskils.html">MY SKILLS</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="contactme.html">CONTACT-US</a>
+        </li>
+      </ul>
+	  
+      
+    </div>
+  </div>
+ 
+</nav>
+</header>
+
+<div class="container ">
+<div class="row">
+	<div class="col-sm-6 detel " >
+		<div class="contact-parent">
+      <div class="contact-child child1">
+         <p>
+            <i class="fas fa-map-marker-alt"></i> Address <br />
+            <span> ETHIOPIA
+            <br />
+            ADDIS ABEBA, AKAKI
+            </span>
+         </p>
+         <p>
+            <i class="fas fa-phone-alt"></i> Let's Talk <br />
+            <span> +251902480915</span>
+         </p>
+         <p>
+            <i class=" far fa-envelope"></i> General Support <br />
+            <span>samuelbahiru93@gmail.com</span>
+         </p>
+      </div>
+      <div class="contact-child child2">
+         <div class="inside-contact">
+            <h2>Contact Us</h2>
+            <h3>
+               <span id="confirm">
+            </h3>
+            <p>Name *</p>
+            <input id="txt_name" type="text" Required="required">
+            <p>Email *</p>
+            <input id="txt_email" type="text" Required="required">
+            <p>Phone *</p>
+            <input id="txt_phone" type="text" Required="required">
+            <p>Subject *</p>
+            <input id="txt_subject" type="text" Required="required">
+            <p>Message *</p>
+            <textarea id="txt_message" rows="4" cols="20" Required="required" ></textarea>
+            <input type="submit" id="btn_send" value="SEND">
+         </div>
+      </div>
+   </div>
+</div>
+	   
+	
+	
+	<div class="col-sm-6 banner-info">
+	
+<div class="mapouter"><div class="gmap_canvas"><iframe width="716" height="622" id="gmap_canvas" src="https://maps.google.com/maps?q=ethiopia%20act%20american&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.whatismyip-address.com"></a><br><style>.mapouter{position:relative;text-align:right;height:622px;width:716px;}</style><a href="https://www.embedgooglemap.net">embedding google maps on website</a><style>.gmap_canvas {overflow:hidden;background:none!important;height:622px;width:716px;}</style></div></div>
+
+	
+	</div>
+        
+
+
+</div>
+</div>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
